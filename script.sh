@@ -4,7 +4,7 @@ set -e # 명령어 실행 중 에러 발생 시 즉시 중단 (배포 안전성 
 # ==========================================
 # 1. 사용자 설정 변수 (본인 환경에 맞게 수정)
 # ==========================================
-IMAGE_NAME="본인도커허브아이디/calculator"
+IMAGE_NAME="juyeon13241/calculator"
 TAG="latest"
 CONTAINER_NAME="calculator"
 HOST_PORT="8080"       # EC2 외부에서 접속할 포트
